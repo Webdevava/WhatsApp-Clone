@@ -1,0 +1,82 @@
+.contact {
+    /* width: 43%; */
+    height: 100vh;
+    flex: .856;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #2A3942;
+  }
+  .nav {
+    width: 100%;
+    background-color: #202C33;
+    color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  .55em 1em;
+    flex: .92;
+  }
+  .profile,
+  .navActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .proPic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #222;
+  }
+  .name{
+      font-weight: bold;
+  }
+  .callContainer,
+  .vdocallContainer {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+
+  .subnav{
+    background-color: #111B21;
+    /* background-color: #222; */
+    display: flex;align-items: center;justify-content: space-evenly;
+    padding: 6px;
+    color: #DDE2E4;
+    flex: .78;
+  }
+  .search,.filter{
+   height: 18px;
+  }
+  .searchDiv{
+    padding:5px 15px;
+    width: 90%;
+    display: flex;align-items: center;justify-content: space-between;
+    /* padding: 4px 6px; */
+    background-color:#202C33;
+    border-radius: 10px;
+
+  }
+  .searchinput{
+    background-color: #202C33;
+    border: none;
+    outline: none;font-size: 14px;
+    padding: 4px 8px;
+    color: #DDE2E4;
+    width: 90%;
+  }
+
+
+  .contactList{
+    flex: 12;
+    width: 100%;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    display: flex;
+    flex-direction: column;  background-color: #111B21;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+  }

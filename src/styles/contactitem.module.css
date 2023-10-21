@@ -1,0 +1,41 @@
+.item{
+    background-color: #111B21;
+    color: #DDE2E4;
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+    cursor: pointer;
+    user-select: none;  background-color: #111B21;
+}
+
+.item:hover{
+    background-color: #202C33;
+}
+.item:active,.item:focus{
+    background-color: #2A3942;
+}
+
+.pic{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    margin:0 8px;
+    /* flex: 1; */
+}
+.info{
+    border-bottom: 1px solid #202C33;
+    flex: 3;    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    height: 100%;
+    margin: 17px 10px;
+
+}
+
+.msg{
+    font-size: 15px;
+    font-weight: 100;
+    color: #74797a;
+}
